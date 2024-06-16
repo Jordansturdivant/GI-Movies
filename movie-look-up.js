@@ -1,4 +1,5 @@
-// put in name of the movie, searching the movie API to find the movie ID and then taking the ID to look up similar movies
+//put in name of the movie, searching the movie API to find the movie ID and then taking the ID to look up similar movies
+// trial and error
 const request = require('request');
 require('dotenv').config();
 const title = process.argv[2];
@@ -61,3 +62,4 @@ movieSearch(title, (error, data) => {
 
 module.exports = movieSearch
 module.exports = getSimilarMovies
+

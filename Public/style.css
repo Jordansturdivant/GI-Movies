@@ -1,11 +1,15 @@
-.{
+
     
-}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #a91616;
+    background-color: #a9169a;
     margin: 0;
     padding: 0;
+    font-size: 50px; 
+    text-align: center; 
+    color: #fff;
+
 }
 
 .container {
@@ -13,13 +17,13 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(241, 238, 238);
     border-radius: 8px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    
 }
 
 form {
